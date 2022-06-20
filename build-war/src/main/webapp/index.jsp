@@ -1,10 +1,10 @@
 <%@page import="org.nirkoren.maven.demo.HelloHandler"%>
 <html>
-<body style="background-color:gold; font-family: arial;">
+<body style="background-color:blue; font-family: arial;">
 	<h2>Welcome to DevOpsCon Demo project</h2>
 	CI/CD Workshop, Maven / Tomcat WAR example<P>
 	<%
-		String prefix = "<B>Read info from Java class:</B> ";
+		String prefix = "<B>BOSS:</B> ";
 		HelloHandler handler = new HelloHandler();
 		out.print(prefix + handler.sayHello());
 	%>
